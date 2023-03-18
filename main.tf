@@ -6,7 +6,7 @@ locals {
 
 #-------------------------------------------------------------------------------
 # SIMPLE NOTIFICATION SERVICE (SNS) TOPIC SPECIFICATIONS
-#-------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
 resource "aws_sns_topic" "this" {
   name         = local.topic_name
   display_name = local.display_name
